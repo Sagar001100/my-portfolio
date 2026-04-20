@@ -1,0 +1,212 @@
+
+/* NAVBAR */
+
+nav {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+background: #7c65b0;
+
+padding: 15px 40px;
+
+position: sticky;
+
+top: 0;
+
+z-index: 1000;
+
+}
+
+
+.logo {
+
+color: white;
+
+font-size: 22px;
+
+font-weight: bold;
+
+}
+
+
+nav ul {
+
+list-style: none;
+
+display: flex;
+
+gap: 20px;
+
+margin: 0;
+
+}
+
+
+nav ul li a {
+
+text-decoration: none;
+
+color: rgb(254, 254, 254);
+
+font-size: 16px;
+
+transition: 0.3s;
+
+}
+
+
+nav ul li a:hover {
+
+color: #3498db;
+
+}
+
+body {
+font-family: Arial;
+margin: 0;
+background: #7c65b0;
+}
+
+
+/* HEADER */
+
+header {
+background: #2c3e50;
+color: rgb(140, 25, 181);
+text-align: center;
+padding: 40px;
+}
+
+#home {
+
+background-image: url("../images/2.jpg");
+
+height: 400px;
+
+background-size: cover;
+
+background-position: center;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+color: rgb(58, 8, 153);
+
+text-align: center;
+
+}
+
+/* SECTIONS */
+
+section {
+background: white;
+margin: 30px;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* IMAGE */
+
+img {
+width: 150px;
+border-radius: 50%;
+}
+
+
+/* SKILLS */
+
+ul {
+list-style: square;
+}
+
+
+/* PROJECT CARDS */
+
+.project-card {
+background: #ecf0f1;
+padding: 20px;
+margin-top: 15px;
+border-radius: 8px;
+}
+
+
+/* BUTTON */
+
+button {
+background: #3498db;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background: #2980b9;
+}
+
+
+/* CONTACT FORM */
+
+input, textarea {
+display: block;
+width: 100%;
+margin-top: 10px;
+padding: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+background: #7c65b0;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 15px;
+
+
+
+
+background: linear-gradient(
+rgba(0,0,0,0.6),
+rgba(0,0,0,0.6)
+),
+url("../images/5.jpg");
+
+background-size: cover;
+
+background-position: center;
+
+padding: 25px;
+
+text-align: center;
+
+color: white;
+
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+section {
+margin: 15px;
+padding: 20px;
+}
+
+img {
+width: 120px;
+}
+
+}
