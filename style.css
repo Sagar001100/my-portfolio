@@ -83,7 +83,7 @@ padding: 40px;
 
 #home {
 
-background-image: url("../images/2.jpg");
+background-image: url("2.jpg");
 
 height: 400px;
 
@@ -182,7 +182,7 @@ background: linear-gradient(
 rgba(0,0,0,0.6),
 rgba(0,0,0,0.6)
 ),
-url("../images/5.jpg");
+url("5.jpg");
 
 background-size: cover;
 
